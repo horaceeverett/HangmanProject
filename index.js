@@ -20,6 +20,7 @@ const isGameOver = (word, guessedLetters, incorrectGuesses) => {
   );
 };
 
+
 const playRound = () => {
   const word = getRandomWord();
   let guessedLetters = [];
